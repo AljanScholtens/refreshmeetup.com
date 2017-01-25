@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  #OBJECTS-LOGO
+\*------------------------------------*/
+
+.o-logo {
+
+  & svg {
+    display: block;
+    fill: var(--white);
+    height: 3.75rem;
+    width: 13.5rem;
+  }
+
+  & span {
+    display: none;
+  }
+}
