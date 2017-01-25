@@ -77,20 +77,7 @@
       <h2 class="heading--h1">Next meetups</h2>
 
       <h3 class="u-uppercase">Upcoming</h3>
-      <div class="o-card o-card--white o-card--row o-card--clickable">
-        <a href="https://www.meetup.com/refresh-groningen/events/224471089/" class="o-card__link">
-          <span class="o-card__time">4 oct</span>
-          <span class="o-card__event">S03E01 - Pattern Libraries</span>
-        </a>
-      </div>
 
-      <h3 class="u-uppercase">Scheduled</h3>
-      <div class="o-card o-card--white o-card--row o-card--clickable">
-        <a href="https://www.meetup.com/refresh-groningen/events/233705695/" class="o-card__link">
-          <span class="o-card__time">13 dec</span>
-          <span class="o-card__event">S03E02 - TBA</span>
-        </a>
-      </div>
       <div class="o-card o-card--white o-card--row o-card--clickable">
         <a href="https://www.meetup.com/refresh-groningen/events/233705700/" class="o-card__link">
           <span class="o-card__time">4 feb</span>
