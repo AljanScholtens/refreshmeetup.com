@@ -79,21 +79,15 @@
       <h3 class="u-uppercase">Upcoming</h3>
 
       <div class="o-card o-card--white o-card--row o-card--clickable">
-        <a href="https://www.meetup.com/refresh-groningen/events/233705700/" class="o-card__link">
-          <span class="o-card__time">4 feb</span>
-          <span class="o-card__event">S03E03 - TBA</span>
-        </a>
-      </div>
-      <div class="o-card o-card--white o-card--row o-card--clickable">
         <a href="https://www.meetup.com/refresh-groningen/events/233705704/" class="o-card__link">
           <span class="o-card__time">4 apr</span>
-          <span class="o-card__event">S03E04 - TBA</span>
+          <span class="o-card__event">S03E04 - UX Research at Concept7</span>
         </a>
       </div>
       <div class="o-card o-card--white o-card--row o-card--clickable">
         <a href="https://www.meetup.com/refresh-groningen/events/233705708/" class="o-card__link">
           <span class="o-card__time">6 jun</span>
-          <span class="o-card__event">S03E05 - TBA</span>
+          <span class="o-card__event">S03E05 - (SVG) Animaties</span>
         </a>
       </div>
 
