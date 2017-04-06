@@ -10,7 +10,7 @@
   <meta name="msapplication-TileColor" content="#499E5E">
 
   <title>Refresh Meetup</title>
-  <meta name="description" content="Refresh Meetup for designers and front-end developers in Groningen and Amsterdam">
+  <meta name="description" content="Refresh Meetup for designers and front-end developers in Groningen">
   <meta name="author" content="Studio Wolf">
 
   <meta property="og:site_name" content="Refresh Meetup"/>
