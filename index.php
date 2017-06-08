@@ -2,7 +2,16 @@
 
 <h2 class="heading--h1">Next meetups</h2>
 
-<h3 class="u-uppercase">Upcoming</h3>
+<p>The third season (2016/2017) of Refresh has come to an end. This summer we'll announce new events, so stay tuned.</p>
+
+<div class="o-card o-card--white o-card--row o-card--clickable">
+  <a href="https://www.meetup.com/refresh-groningen/" class="o-card__link">
+    <!-- <span class="o-card__time">4 apr</span> -->
+    <span class="o-card__event">Refresh on Meetup.com</span>
+  </a>
+</div>
+
+<!-- <h3 class="u-uppercase">Upcoming</h3>
 
 <div class="o-card o-card--white o-card--row o-card--clickable">
   <a href="https://www.meetup.com/refresh-groningen/events/233705704/" class="o-card__link">
@@ -15,7 +24,7 @@
     <span class="o-card__time">6 jun</span>
     <span class="o-card__event">S03E05 - (SVG) Animaties</span>
   </a>
-</div>
+</div> -->
 
 <!-- <h3 class="u-uppercase">Amsterdam</h3>
 <div class="o-card o-card--white o-card--row o-card--clickable">
@@ -24,9 +33,9 @@
   </a>
 </div> -->
 
-<p class="paragraph--small">Get invited by asking a friend who already joined Refresh. We want to keep the meetup small at the moment.</p>
+<p class="paragraph--small">Want to join our Slack team? Join Refresh via <a href="http://meetup.com/refresh-groningen">Meetup.com</a> and we'll get you in. </p>
 
-<p>Looking for a job? We're keeping track of <a href="/jobs.php">design &amp; front-end jobs</a> near Groningen.</p>
+<!-- <p>Looking for a job? We're keeping track of <a href="/jobs.php">design &amp; front-end jobs</a> near Groningen.</p> -->
 
 <!-- <h2>Sponsors</h2>
 <ul class="o-logos">
