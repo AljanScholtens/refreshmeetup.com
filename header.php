@@ -34,7 +34,6 @@
 
     ga('create', 'UA-73902330-1', 'auto');
     ga('send', 'pageview');
-
   </script>
 
   <svg xmlns="http://www.w3.org/2000/svg" style="height:0;width:0;position:absolute;z-index:-1000;">
@@ -63,10 +62,10 @@
         <p>A meetup for designers and front-end developers. We'll organize talks, discussions, videos and bbq's. Beers included. Topics about UX, design, CSS, JS, workflow, tools and more.</p>
 
         <h2 class="u-uppercase">When is Refresh?</h2>
-        <p>Once every two months on a tuesday evening in Groningen.</p>
+        <p>Once every two months on a tuesday evening in Groningen by <a href="https://twitter.com/ronvandegraaf">Ron van de Graaf</a> and <a href="https://twitter.com/aljanscholtens">Aljan Scholtens</a>.</p>
 
         <h2 class="u-uppercase">Need to know more?</h2>
-        <p>Read the <a href="https://aljanscholtens.nl/blog/refresh-the-meetup-for-designers-and-front-end-developers">blog by Aljan Scholtens</a>. Questions about the meetup or interesting in hosting Refresh in your city? <a href="mailto:aljan@scholtens.me">Let us know</a>.</p>
+        <p>Read the <a href="https://aljanscholtens.nl/blog/refresh-the-meetup-for-designers-and-front-end-developers">blog by Aljan</a>. Questions about the meetup or interesting in hosting Refresh in your city? <a href="mailto:aljan@scholtens.me">Let us know</a>.</p>
 
       </div>
 

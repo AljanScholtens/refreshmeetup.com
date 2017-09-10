@@ -2,34 +2,47 @@
 
 <h2 class="heading--h1">Next meetups</h2>
 
-<p>The third season (2016/2017) of Refresh has come to an end. This summer we'll announce new events, so stay tuned.</p>
+<h3 class="u-uppercase">Upcoming in 2017</h3>
 
 <div class="o-card o-card--white o-card--row o-card--clickable">
-  <a href="https://www.meetup.com/refresh-groningen/" class="o-card__link">
-    <!-- <span class="o-card__time">4 apr</span> -->
-    <span class="o-card__event">Refresh on Meetup.com</span>
+  <a href="https://www.meetup.com/refresh-groningen/events/242086054/" class="o-card__link">
+    <span class="o-card__time">12 sept</span>
+    <span class="o-card__event">S04E01 - CSS Grid Layout + mini workshop</span>
   </a>
 </div>
 
-<!-- <h3 class="u-uppercase">Upcoming</h3>
-
 <div class="o-card o-card--white o-card--row o-card--clickable">
-  <a href="https://www.meetup.com/refresh-groningen/events/233705704/" class="o-card__link">
-    <span class="o-card__time">4 apr</span>
-    <span class="o-card__event">S03E04 - UX Research at Concept7</span>
+  <a href="https://www.meetup.com/refresh-groningen/events/242086058/" class="o-card__link">
+    <span class="o-card__time">14 nov</span>
+    <span class="o-card__event">S0402 - Sketch &amp; Figma</span>
   </a>
 </div>
-<div class="o-card o-card--white o-card--row o-card--clickable">
-  <a href="https://www.meetup.com/refresh-groningen/events/233705708/" class="o-card__link">
-    <span class="o-card__time">6 jun</span>
-    <span class="o-card__event">S03E05 - (SVG) Animaties</span>
-  </a>
-</div> -->
 
-<!-- <h3 class="u-uppercase">Amsterdam</h3>
+<!-- <div class="o-card o-card--white o-card--row o-card--clickable">
+  <a href="https://www.meetup.com/refresh-groningen/events/242086066/" class="o-card__link">
+    <span class="o-card__time">2 jan</span>
+    <span class="o-card__event">S0403 - TBA</span>
+  </a>
+</div>
+
 <div class="o-card o-card--white o-card--row o-card--clickable">
-  <a href="http://www.meetup.com/refresh-amsterdam/" class="o-card__link">
-    <span class="o-card__event">Not yet announced</span>
+  <a href="https://www.meetup.com/refresh-groningen/events/242086072/" class="o-card__link">
+    <span class="o-card__time">27 feb</span>
+    <span class="o-card__event">S0404 - TBA</span>
+  </a>
+</div>
+
+<div class="o-card o-card--white o-card--row o-card--clickable">
+  <a href="https://www.meetup.com/refresh-groningen/events/242086082/" class="o-card__link">
+    <span class="o-card__time">24 apr</span>
+    <span class="o-card__event">S0405 - TBA</span>
+  </a>
+</div>
+
+<div class="o-card o-card--white o-card--row o-card--clickable">
+  <a href="https://www.meetup.com/refresh-groningen/events/242086109/" class="o-card__link">
+    <span class="o-card__time">19 jun</span>
+    <span class="o-card__event">S0406 - TBA</span>
   </a>
 </div> -->
 
@@ -37,11 +50,10 @@
 
 <!-- <p>Looking for a job? We're keeping track of <a href="/jobs.php">design &amp; front-end jobs</a> near Groningen.</p> -->
 
-<!-- <h2>Sponsors</h2>
+<h2>Sponsors</h2>
 <ul class="o-logos">
-  <li class="o-logos__item o-logos__item--small"><a href="https://uncinc.nl/" style="background-image:url('dist/images/logo-uncinc.svg')"></a></li>
-  <li class="o-logos__item"><a href="https://studiowolf.com/" style="background-image:url('dist/images/logo-studiowolf.svg')"></a></li>
-  <li class="o-logos__item"><a href="http://concept7.nl/" style="background-image:url('dist/images/logo-c7.svg')"></a></li>
-</ul> -->
+  <li class="o-logos__item"><a href="https://www.wearespindle.com" style="background-image:url('dist/images/logo-spindle.svg')"></a></li>
+  <li class="o-logos__item"><a href="https://hackerone.com" style="background-image:url('dist/images/logo-hackerone.svg')"></a></li>
+</ul>
 
 <?php include 'footer.php'; ?>

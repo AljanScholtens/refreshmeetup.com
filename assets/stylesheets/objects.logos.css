@@ -9,7 +9,7 @@
     lost-utility: clearfix;
     display: flex;
     flex-flow: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
   }
 }
 
@@ -42,9 +42,11 @@
       background-repeat: no-repeat;
       background-position: center;
       margin-top: auto;
-      
+
       display: block;
       filter: grayscale(100%);
+      border: 0;
+      text-decoration: none;
       transition: opacity 200ms var(--bezier-a);
 
       &:hover {
