@@ -5,27 +5,20 @@
 <h3 class="u-uppercase">Upcoming in 2017</h3>
 
 <div class="o-card o-card--white o-card--row o-card--clickable">
-  <a href="https://www.meetup.com/refresh-groningen/events/242086054/" class="o-card__link">
-    <span class="o-card__time">12 sept</span>
-    <span class="o-card__event">S04E01 - CSS Grid Layout + mini workshop</span>
-  </a>
-</div>
-
-<div class="o-card o-card--white o-card--row o-card--clickable">
   <a href="https://www.meetup.com/refresh-groningen/events/242086058/" class="o-card__link">
     <span class="o-card__time">14 nov</span>
     <span class="o-card__event">S0402 - Sketch &amp; Figma</span>
   </a>
 </div>
 
-<!-- <div class="o-card o-card--white o-card--row o-card--clickable">
+<div class="o-card o-card--white o-card--row o-card--clickable">
   <a href="https://www.meetup.com/refresh-groningen/events/242086066/" class="o-card__link">
     <span class="o-card__time">2 jan</span>
     <span class="o-card__event">S0403 - TBA</span>
   </a>
 </div>
 
-<div class="o-card o-card--white o-card--row o-card--clickable">
+<!--<div class="o-card o-card--white o-card--row o-card--clickable">
   <a href="https://www.meetup.com/refresh-groningen/events/242086072/" class="o-card__link">
     <span class="o-card__time">27 feb</span>
     <span class="o-card__event">S0404 - TBA</span>
