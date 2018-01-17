@@ -2,21 +2,30 @@
 
 <h2 class="heading--h1">Next meetups</h2>
 
-<h3 class="u-uppercase">Upcoming in 2017</h3>
+<h3 class="u-uppercase">Upcoming in 2018</h3>
 
 <div class="o-card o-card--white o-card--row o-card--clickable">
   <a href="https://www.meetup.com/refresh-groningen/events/242086066/" class="o-card__link">
     <span class="o-card__time">16 jan</span>
-    <span class="o-card__event">S0403 - CSS Style application</span>
+    <span class="o-card__event">S0403 - CSS Style application at Spindle</span>
   </a>
 </div>
 
 <div class="o-card o-card--white o-card--row o-card--clickable">
   <a href="https://www.meetup.com/refresh-groningen/events/242086072/" class="o-card__link">
     <span class="o-card__time">20 feb</span>
-    <span class="o-card__event">S0404 - TBA</span>
+    <span class="o-card__event">S0404 - TBA at Hackerone</span>
   </a>
 </div>
+
+<div class="o-card o-card--white o-card--row o-card--clickable">
+  <a href="https://www.meetup.com/refresh-groningen/events/242086082/" class="o-card__link">
+    <span class="o-card__time">24 apr</span>
+    <span class="o-card__event">S0405 - TBA</span>
+  </a>
+</div>
+
+
 
 <!--<div class="o-card o-card--white o-card--row o-card--clickable">
   <a href="https://www.meetup.com/refresh-groningen/events/242086082/" class="o-card__link">
