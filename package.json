@@ -1,24 +1,31 @@
 {
-  "name": "taiga-boilerplate",
-  "description": "Taiga Boilerplate",
-  "version": "2.0.0",
-  "author": "Studio Wolf <hello@studiowolf.com>",
+  "name": "aljanscholtens.nl",
+  "description": "aljanscholtens.nl",
+  "version": "1.0.0",
+  "author": "Aljan Scholtens",
   "license": "MIT",
   "main": "gulpfile.js",
   "devDependencies": {
-    "browser-sync": "^2.11.1",
-    "browserslist": "^1.1.1",
+    "browser-sync": "^2.26.5",
     "gulp": "^3.9.1",
-    "gulp-connect-php": "0.0.7",
-    "gulp-cssnano": "^2.1.0",
-    "gulp-imagemin": "^2.4.0",
-    "gulp-postcss": "^6.0.1",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-watch": "^4.3.5",
-    "gutil": "^1.6.4",
-    "imagemin-jpegoptim": "^4.1.0",
-    "lost": "^6.7.1",
-    "postcss-cssnext": "^2.4.0",
-    "postcss-import": "^8.0.2"
+    "gulp-cssnano": "latest",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-imageoptim": "^1.0.8",
+    "gulp-nunjucks": "latest",
+    "gulp-postcss": "^8.0.0",
+    "gulp-smushit": "^1.2.0",
+    "gulp-sourcemaps": "latest",
+    "gulp-util": "^3.0.8",
+    "imagemin-mozjpeg": "^6.0.0",
+    "lodash": "^4.17.11",
+    "lost": "latest",
+    "postcss-cssnext": "latest",
+    "postcss-import": "latest"
+  },
+  "dependencies": {
+    "connect-modrewrite": "^0.9.0",
+    "del": "^2.2.2",
+    "imagemin-jpegoptim": "^5.0.0",
+    "imagemin-jpegtran": "^5.0.2"
   }
 }
