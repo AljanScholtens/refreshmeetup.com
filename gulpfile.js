@@ -1,97 +1,53 @@
-var gulp = require('gulp')
-var sourcemaps = require('gulp-sourcemaps')
-var postcss = require('gulp-postcss')
-var cssnano = require('gulp-cssnano')
-var atImport = require('postcss-import')
-var lost = require('lost')
-var cssnext = require('postcss-cssnext')
-var gutil = require('gulp-util')
+const autoprefixer = require("autoprefixer");
+const browsersync = require("browser-sync").create();
+const cp = require("child_process");
+const cssnano = require("cssnano");
+const del = require("del");
+const eslint = require("gulp-eslint");
+const gulp = require("gulp");
+const imagemin = require("gulp-imagemin");
+const newer = require("gulp-newer");
+const plumber = require("gulp-plumber");
+const postcss = require("gulp-postcss");
+const rename = require("gulp-rename");
 
-var imagemin = require('gulp-imagemin')
-var jpegtran = require('imagemin-jpegtran')
+const cssnano = require('gulp-cssnano')
+const atImport = require('postcss-import')
 
-var nunjucks = require('gulp-nunjucks')
-var browserSync = require('browser-sync').create()
-var modRewrite  = require('connect-modrewrite')
+const nunjucks = require('gulp-nunjucks')
+const browsersync = require('browser-sync').create()
 
-var debounce = require('lodash/debounce');
-var debouncedReload = debounce(browserSync.reload, 200)
-
-gulp.task('default', ['clean', 'serve'])
-
-gulp.task('serve', ['build', 'watch'], function() {
-
-  browserSync.init({
+function browserSync(done) {
+  browsersync.init({
     server: {
-      baseDir: "./dist/",
-      serveStaticOptions: {
-        extensions: ['html']
-      }
+      baseDir: "./dist/"
     },
-    open: false
+    port: 3000
   });
+  done();
+}
 
-  gulp.watch('dist/**/*').on('change', debouncedReload)
-})
+// BrowserSync Reload
+function browserSyncReload(done) {
+  browsersync.reload();
+  done();
+}
 
-gulp.task('watch', function() {
-  gulp.watch('src/**/*.html', ['html'])
-  gulp.watch('src/assets/stylesheets/**/*.css', ['css'])
-  gulp.watch('src/assets/images/**/*', ['images'])
-  gulp.watch('src/media/**/*', ['media'])
-  gulp.watch('src/assets/scripts/**/*', ['scripts'])
-})
+// CSS task
+function css() {
+  return gulp
+    .src("./src/assets/stylesheets/styles.css")
+    .pipe(plumber())
+    .pipe(sass({ outputStyle: "expanded" }))
+    .pipe(gulp.dest("./_site/assets/css/"))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(postcss([autoprefixer(), cssnano(), cssnext(), atImport()]))
+    .pipe(gulp.dest("./dist/assets/stylesheets/"))
+    .pipe(browsersync.stream());
+}
 
-gulp.task('build', ['html', 'css', 'scripts', 'images', 'fonts', 'media'])
-
-gulp.task('clean', function(cb) {
-//   return del('dist');
-});
-
-gulp.task('html', () =>
-  gulp.src('src/**/*.html')
-   .pipe(nunjucks.compile())
-   .pipe(gulp.dest('dist'))
-)
-
-gulp.task('images', () =>
-  gulp.src('src/assets/images/*')
-    .pipe(gulp.dest('dist/assets/images'))
-)
-
-gulp.task('fonts', () =>
-  gulp.src('src/assets/fonts/*')
-    .pipe(gulp.dest('dist/assets/fonts'))
-)
-
-gulp.task('media', function() {
-  return gulp.src('src/media/**/*')
-
-    .pipe(imagemin({
-      progressive: true,
-      use: [jpegtran({ max: '20' })]
-    }))
-
-    .on('error', gutil.log)
-
-    .pipe(gulp.dest('dist/media'))
-});
-
-gulp.task('scripts', () =>
-  gulp.src('src/assets/scripts/*')
-    .pipe(gulp.dest('dist/assets/scripts'))
-)
-
-gulp.task("css", function() {
-  var processors = [
-    atImport,
-    cssnext(),
-    lost()
-  ]
-  gulp.src(['src/assets/stylesheets/styles.css'])
-    .pipe(sourcemaps.init())
-    .pipe(postcss(processors))
-    .pipe(cssnano())
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('dist/assets/stylesheets'))
-})
+// Watch files
+function watchFiles() {
+  gulp.watch("./src/assets/stylesheets/**/*", css);
+  gulp.watch("./assets/js/**/*", gulp.series(scriptsLint, scripts));
+}
