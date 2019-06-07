@@ -6,7 +6,7 @@
   width: 100%;
   position: relative;
 
-  background-image: url('../../dist/images/header-refresh.jpg');
+  background-image: url('../images/header-refresh.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
