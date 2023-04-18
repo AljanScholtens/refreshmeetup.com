@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "gulpfile.js",
   "devDependencies": {
-    "browser-sync": "^2.11.1",
+    "browser-sync": "^2.29.1",
     "browserslist": "^1.1.1",
     "gulp": "^3.9.1",
     "gulp-connect-php": "0.0.7",
